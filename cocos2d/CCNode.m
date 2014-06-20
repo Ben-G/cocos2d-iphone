@@ -226,7 +226,7 @@ static NSUInteger globalOrderOfArrival = 1;
     for (CCNode* child in _children)
 		child.parent = nil;
 
-
+  self.animationManager = nil;
 }
 
 #pragma mark Setters
